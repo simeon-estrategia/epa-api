@@ -25,8 +25,8 @@ EX: tabela: users
 | Contido            | :LIKE= OU :\*LIKE= OU :LIKE\*= OU :\*LIKE\*= | Busca os registros que o valor informado esteja contido   | /users?nome:\*LIKE\*=Maria |
 | Maior que          | >=                                           | Busca os registros com o valor maior que o informado      | /users?codigo>=15          |
 | Menor que          | <=                                           | Busca os registros com o valor menor que o informado      | /users?codigo<=15          |
-| Maior ou igual que | >-=                                          | Busca os registros com o valor maior ou igual o informado | /users?codigo=>=15         |
-| Menor ou igual que | <-=                                          | Busca os registros com o valor menor ou igual o informado | /users?codigo=<=15         |
+| Maior ou igual que | >-=                                          | Busca os registros com o valor maior ou igual o informado | /users?codigo>-=15         |
+| Menor ou igual que | <-=                                          | Busca os registros com o valor menor ou igual o informado | /users?codigo<-=15         |
 
 Obs: Para todos os operadores exceto o `Contido` é possível passar vários valores separados por `,`;
 
