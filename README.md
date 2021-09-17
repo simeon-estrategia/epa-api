@@ -32,6 +32,7 @@ Obs: Para todos os operadores exceto o `Contido` é possível passar vários val
 
 EX: `users?codigo=15,2,62,105`
 
+Obs2: Os filtros de data funcionam de forma diferente;
 
 
 
