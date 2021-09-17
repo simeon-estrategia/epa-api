@@ -167,7 +167,7 @@ OBS: Caso queira realizar um filtro de período entre dois campos de datas difer
 
 
 
-## 4. onlyColumns [Ainda não implementado]
+## 4. onlyColumns
 
 `onlyColumn` é um parâmetro que tem o objetivo diminuir a quatidade de dados que vêm na resposta otimizando a busca. Com este parâmetro é possível selecionar quais campos devem ser retornados na resposta.
 
@@ -212,12 +212,6 @@ EX (Com `onlyColumns`):
 	},
 ]
 ```
-
-
-
-Também é possível filtrar os relacionamentos de um item caso aja relacionamento
-
-EX: `/users?onlyColumns=nome,id,endereco:rua,cidade`
 
 
 
