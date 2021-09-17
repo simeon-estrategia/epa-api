@@ -1,9 +1,3 @@
-# Parâmetros de requisições EPA.
-
-
-
-
-
 ## 1. Filtros diretos
 
 Cada campo da tabela já consegue ser filtrado sem nenhum intervenção no código. Se a coluna existe no banco, ela já possui um filtro correspondente.
