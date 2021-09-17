@@ -4,7 +4,7 @@
 
 
 
-## 1. Filtros diretos  [Apenas o igualdade já está implementado]
+## 1. Filtros diretos
 
 Cada campo da tabela já consegue ser filtrado sem nenhum intervenção no código. Se a coluna existe no banco, ela já possui um filtro correspondente.
 EX: tabela: users
@@ -25,12 +25,12 @@ EX: tabela: users
 | Contido            | :LIKE= OU :\*LIKE= OU :LIKE\*= OU :\*LIKE\*= | Busca os registros que o valor informado esteja contido   | /users?nome:\*LIKE\*=Maria |
 | Maior que          | >=                                           | Busca os registros com o valor maior que o informado      | /users?codigo>=15          |
 | Menor que          | <=                                           | Busca os registros com o valor menor que o informado      | /users?codigo<=15          |
-| Maior ou igual que | =>=                                          | Busca os registros com o valor maior ou igual o informado | /users?codigo=>=15         |
-| Menor ou igual que | =<=                                          | Busca os registros com o valor menor ou igual o informado | /users?codigo=<=15         |
+| Maior ou igual que | >-=                                          | Busca os registros com o valor maior ou igual o informado | /users?codigo=>=15         |
+| Menor ou igual que | <-=                                          | Busca os registros com o valor menor ou igual o informado | /users?codigo=<=15         |
 
-Obs: Para todos os operadores exceto o `Contido` é possível passar vários valores separados por `,`. Para o `Contido` é nécessário separar utilizando `,,`;
+Obs: Para todos os operadores exceto o `Contido` é possível passar vários valores separados por `,`;
 
-EX: `users?codigo=15,2,62,105` | `users?nome:*LIKE*=Maria,,Pedro`
+EX: `users?codigo=15,2,62,105`
 
 
 
